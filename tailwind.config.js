@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'customblue': '#505cf4', 
+      },
+      borderColor: {
+        'customblue': '#505cf4',
+      },
+    },
   },
   plugins: [],
-}
+};
